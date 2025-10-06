@@ -1,8 +1,11 @@
-# 🌾 Crop Yield Prediction under Climate Change 🚀
+# 🌾 Crop Yield Prediction under Climate Change with Machine Learning 🚀
 
-> A data-driven modeling framework to predict national crop yields under changing climatic and agricultural conditions, using historical weather, fertilizer inputs, and lagged features.
+> A reproducible machine learning pipeline to predict national crop yields under changing climatic and agricultural conditions.  
+> Built with Ridge Regression and Random Forest models, integrating temperature, precipitation, and fertilizer data.
 
----
+![Python Version](https://img.shields.io/badge/python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-completed-success)
 
 ## 📘 View Results Online
 
@@ -224,10 +227,12 @@ Golib Sanaev
 **E-Mail:** gsanaev@gmail.com  
 **LinkedIn:** [golib-sanaev](https://linkedin.com/in/golib-sanaev/)
 
-## 🙏 Acknowledgments
-- StackFuel Team
-- World Bank and NASA for open data
-- scikit-learn & SHAP communities for ML tooling
+## 🙏 Acknowledgements
+
+- [StackFuel](https://stackfuel.com/de/) Team — for inspiring and supporting data-driven learning in applied machine learning and analytics  
+- World Bank and NASA — for providing open climate and agricultural data sources  
+- scikit-learn & SHAP communities — for robust, transparent machine learning tools  
+
 
 **⭐ If you find this project interesting, please give it a star!**
 
