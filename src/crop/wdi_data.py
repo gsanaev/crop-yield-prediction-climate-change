@@ -51,7 +51,7 @@ def extract_indicators(zip_path,
         # Find the main dataset file (currently WDICSV.csv)
         data_file = [
             f for f in z.namelist()
-            if f.upper().endswith("CSV.CSV")  # WDICSV.csv
+            if f.upper().endswith("CSV.CSV")
             and "COUNTRY" not in f.upper()
             and "SERIES" not in f.upper()
             and "FOOTNOTE" not in f.upper()
@@ -111,17 +111,14 @@ if __name__ == "__main__":
         # 🌍 Climate & Environment
         "EN.GHG.CO2.MT.CE.AR5": "co2_total_mt",   # CO₂ total (Mt, excl. LULUCF)
         "EN.GHG.CO2.PC.CE.AR5": "co2_per_capita", # CO₂ per capita (tons/person, excl. LULUCF)
-        "AG.LND.FRST.ZS": "forest_area_pct",      # Forest area (% of land)
 
         # 👥 Socio-Economic
         "NY.GDP.PCAP.CD": "gdp_per_capita",       # economy
         "SP.POP.TOTL": "population",              # population
         "SP.RUR.TOTL.ZS": "rural_pop_pct",        # Rural population (%)
-        "SL.AGR.EMPL.ZS": "agri_employment_pct",  # Agri employment (% of total)
-
-        # 🌱 Land & Irrigation
-        "AG.LND.ARBL.ZS": "arable_land_pct",      # Arable land (% of land area)
-        "AG.LND.IRIG.AG.ZS": "irrigated_land_pct" # Irrigated land (% of arable land)
+        
+        # 🌱 Land
+        "AG.LND.ARBL.ZS": "arable_land_pct"       # Arable land (% of land area)
     }
 
     zip_path = download_wdi_bulk(replace=False)
