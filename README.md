@@ -15,6 +15,7 @@ You can explore the full analysis directly here:
 - [📊 Evaluation Results](https://gsanaev.github.io/crop-yield-prediction-climate-change/05-evaluation.html)
 - [⚙️ Modeling Summary](https://gsanaev.github.io/crop-yield-prediction-climate-change/04-modeling.html)
 
+---
 
 ## 📊 Project Overview
 
@@ -83,10 +84,10 @@ To build a reproducible modeling pipeline that predicts crop yields by country a
 ## 🔧 Technologies Used
 
 **Programming languages:**  
-- Python 3.10+
+- Python 3.12
 
 **Libraries & frameworks:**  
-- `pandas`, `numpy`, `geopandas`  
+- `pandas`, `numpy`  
 - `scikit-learn` (Ridge, RandomForestRegressor, pipelines)  
 - `matplotlib` for visualization  
 - `joblib` for model persistence  
@@ -107,7 +108,7 @@ To build a reproducible modeling pipeline that predicts crop yields by country a
 - 🔗 **Merge pipeline:** Harmonized by `merge_data.py`  
 
 **Dataset Size:**  
-≈ 200–300 country–year observations after filtering (countries only; aggregates removed).
+216 country–year observations after filtering (countries only; aggregates removed).
 
 **Key Features:**  
 - **Yield (target):** crop yield in kg/ha  
@@ -181,15 +182,22 @@ Output: `data/processed/wdi_nasa.csv`
 
 ## 🚀 Reproducibility
 
+This project uses **[uv](https://docs.astral.sh/uv/)** for environment and dependency management.
+
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/YourUsername/crop-yield-prediction.git
-cd crop-yield-prediction
+git clone https://github.com/gsanaev/crop-yield-prediction-climate-change.git
+cd crop-yield-prediction-climate-change
 
-# Install dependencies
+# Sync environment (installs Python + dependencies automatically)
 uv sync
 ```
+
+`uv sync` ensures:
+- The correct Python version is installed  
+- All dependencies are set up inside `.venv`  
+- The project is immediately ready to run  
 
 ### Execution
 ```bash
@@ -218,14 +226,16 @@ Research project on climate-driven agricultural modeling. Designed for reproduci
 **Date:**  
 2025
 
-**Autor:** 
+**Author:**  
 Golib Sanaev
 
 ## 📞 Contact
 
 **GitHub:** [@gsanaev](https://github.com/gsanaev)  
-**E-Mail:** gsanaev@gmail.com  
+**E-Mail:** gsanaev80@gmail.com  
 **LinkedIn:** [golib-sanaev](https://linkedin.com/in/golib-sanaev/)
+
+---
 
 ## 🙏 Acknowledgements
 
@@ -233,6 +243,6 @@ Golib Sanaev
 - World Bank and NASA — for providing open climate and agricultural data sources  
 - scikit-learn & SHAP communities — for robust, transparent machine learning tools  
 
+---
 
 **⭐ If you find this project interesting, please give it a star!**
-

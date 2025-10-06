@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "geodatasets>=2024.8.0",
     "ipykernel>=6.29.5",
     "kagglehub>=0.3.12",
     "matplotlib>=3.10.3",
