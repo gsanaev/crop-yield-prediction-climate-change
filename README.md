@@ -11,9 +11,10 @@
 
 You can explore the full analysis directly here:
 
-- [🌍 Final Report](https://gsanaev.github.io/crop-yield-prediction-climate-change/07-report.html)
-- [📊 Evaluation Results](https://gsanaev.github.io/crop-yield-prediction-climate-change/05-evaluation.html)
+- [📈 Descriptive Statistics](https://gsanaev.github.io/crop-yield-prediction-climate-change/01-exploration.html)
 - [⚙️ Modeling Summary](https://gsanaev.github.io/crop-yield-prediction-climate-change/04-modeling.html)
+- [📊 Evaluation Results](https://gsanaev.github.io/crop-yield-prediction-climate-change/05-evaluation.html)
+- [🌍 Final Report](https://gsanaev.github.io/crop-yield-prediction-climate-change/07-report.html)
 
 ---
 
