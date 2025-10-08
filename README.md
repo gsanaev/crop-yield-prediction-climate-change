@@ -3,7 +3,7 @@
 > A reproducible machine learning pipeline to predict national crop yields under changing climatic and agricultural conditions.  
 > Built with Ridge Regression and Random Forest models, integrating temperature, precipitation, and fertilizer data.
 
-![Python Version](https://img.shields.io/badge/python-3.10-blue)
+![Python Version](https://img.shields.io/badge/python-3.12-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/status-completed-success)
 
