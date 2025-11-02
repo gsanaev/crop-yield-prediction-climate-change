@@ -1,4 +1,5 @@
 # 🌾 Crop Yield Prediction under Climate Change with Machine Learning 🚀
+*by **Golib Sanaev***  
 
 > A reproducible machine learning pipeline to predict national crop yields under changing climatic and agricultural conditions.  
 > Built with Ridge Regression and Random Forest models, integrating temperature, precipitation, and fertilizer data.
@@ -19,6 +20,7 @@ You can explore the full analysis directly here:
 ---
 
 ## 📊 Project Overview
+**Author:** Golib Sanaev · [LinkedIn](https://www.linkedin.com/in/golib-sanaev) · [GitHub](https://github.com/gsanaev)
 
 **Problem Statement:**  
 Climate change is reshaping agricultural productivity across regions, yet the impact varies by country and year. Understanding and quantifying these effects at the national level is critical for climate-resilient planning and food security.
@@ -245,5 +247,6 @@ Golib Sanaev
 - scikit-learn & SHAP communities — for robust, transparent machine learning tools  
 
 ---
+> This repository was created and maintained by **Golib Sanaev**, Data Scientist specializing in forecasting, econometrics, and applied machine learning.
 
 **⭐ If you find this project interesting, please give it a star!**
